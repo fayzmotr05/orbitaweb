@@ -5,7 +5,13 @@
       "Bash(npm run dev:*)",
       "Bash(timeout:*)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: ORBITA Growth Systems landing page\n\n- React + TypeScript + Vite setup\n- Tailwind CSS with custom animations\n- Framer Motion for scroll animations\n- Responsive dark-themed design\n- Components: Hero, Clients, ProblemBlock, Process, ProductSystem, Team, Cases, Contact, Footer\n- Contact form with localStorage\n- SEO meta tags and accessibility features\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
